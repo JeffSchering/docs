@@ -17,6 +17,7 @@ Install Guides
    /install/prod-ubuntu*
    /install/prod-rhel*
    /install/prod*
+   /install/setup-tls*
    /install/smtp*
    /install/troubleshooting*
    /install/i18n*
@@ -39,6 +40,7 @@ Deployment
    /deployment/sso-gitlab*
    /deployment/sso-google*
    /deployment/sso-office*
+   /deployment/webrtc*
 
 Administration
 ==============

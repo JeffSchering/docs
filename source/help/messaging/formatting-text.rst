@@ -42,7 +42,7 @@ Headings
 
 Make a heading by typing # and a space before your title. For smaller headings, use more #’s.
 
-.. code::
+.. code-block:: none
 
   ## Large Heading
   ### Smaller Heading
@@ -54,7 +54,7 @@ Renders as:
 
 Alternatively, you can underline the text using ``===`` or ``---`` to create headings.
 
-.. code::
+.. code-block:: none
 
   Large Heading
   -------------
@@ -68,7 +68,7 @@ Lists
 
 Create a list by using ``*`` or ``-`` as bullets. Indent a bullet point by adding two spaces in front of it.
 
-.. code::
+.. code-block:: none
 
   * item one
   * item two
@@ -112,7 +112,7 @@ Renders as:
 
 Make a task list by including square brackets:
 
-.. code::
+.. code-block:: none
 
   - [ ] Item one
   - [ ] Item two
@@ -129,7 +129,8 @@ Create a code block by indenting each line by four spaces, or by placing ```````
 
 Example:
 
-.. code::
+.. code-block:: none
+
 
   ```
   code block
@@ -137,7 +138,8 @@ Example:
 
 Renders as:
 
-.. code::
+.. code-block:: none
+
 
   code block
 
@@ -150,7 +152,8 @@ Supported languages are:
 
 Example:
 
-.. code::
+.. code-block:: none
+
 
   ``` go
   package main
@@ -184,7 +187,8 @@ In-line Code
 
 Create in-line monospaced font by surrounding it with backticks.
 
-.. code::
+.. code-block:: none
+
 
   `monospace`
 
@@ -195,7 +199,8 @@ In-line Images
 
 Create in-line images using an ``!`` followed by the alt text in square brackets and the link in normal brackets. Add hover text by placing it in quotes after the link.
 
-.. code::
+.. code-block:: none
+
 
   ![alt text that shows when a link is broken](broken-link "hover text")
 
@@ -241,7 +246,8 @@ Tables
 
 Create a table by placing a dashed line under the header row and separating the columns with a pipe ``|``. (The columns don’t need to line up exactly for it to work). Choose how to align table columns by including colons ``:`` within the header row.
 
-.. code::
+.. code-block:: none
+
 
   | Left-Aligned  | Center Aligned  | Right Aligned |
   | :------------ |:---------------:| -----:|
@@ -259,7 +265,8 @@ Math Formulas
 
 Create formulas by using LaTeX in a ``latex`` `Code Block`_
 
-.. code::
+.. code-block:: none
+
 
   ```latex
   X_k = \sum_{n=0}^{2N-1} x_n \cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{N}{2}\right) \left(k+\frac{1}{2}\right) \right]

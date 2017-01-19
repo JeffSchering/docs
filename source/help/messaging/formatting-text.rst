@@ -83,15 +83,32 @@ Renders as:
 
 Make it an ordered list by using numbers instead:
 
-.. code::
+.. code-block:: none
 
   1. Item one
-  2. Item two
+  1. Item two
+  1. item three
 
 Renders as:
 
 #. Item one
 #. Item two
+#. Item three
+
+You can also start a list at any number:
+
+.. code-block:: none
+
+  4. The first list number is 4.
+  1. The second list number is 5.
+  1. The third list number is 6.
+
+Renders as:
+
+4. The first list number is 4.
+5. The second list number is 5.
+6. The third list number is 6.
+
 
 Make a task list by including square brackets:
 

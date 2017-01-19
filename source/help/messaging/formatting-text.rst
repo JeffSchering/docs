@@ -1,10 +1,10 @@
 Formatting Text
-----------------
+===============
 
 Markdown makes it easy to format messages. Type a message as you normally would, and use these rules to render it with special formatting.
 
 Emojis
-=======
+------
 
 Open the emoji autocomplete by typing ``:`` followed by two characters. A full list of emojis can be found `here <http://www.emoji-cheat-sheet.com/>`_. It is also possible to create your own `Custom Emoji <http://docs.mattermost.com/help/settings/custom-emoji.html>`_ if the emoji you want to use doesn't exist.
 
@@ -15,7 +15,7 @@ Renders as:
 .. image:: ../../images/Emoji1.PNG
 
 Text Style
-==========
+----------
 
 You can use either ``_`` or ``*`` around a word to make it italic. Use two to make it bold.
 
@@ -29,7 +29,7 @@ You can use either ``_`` or ``*`` around a word to make it italic. Use two to ma
   :width: 100px
 
 Links
-======
+-----
 
 Create labeled links by putting the desired text in square brackets and the associated link in normal brackets.
 
@@ -38,7 +38,7 @@ Create labeled links by putting the desired text in square brackets and the asso
 Renders as: `Check out Mattermost! <https://about.mattermost.com/>`_
 
 Headings
-========
+--------
 
 Make a heading by typing # and a space before your title. For smaller headings, use more #’s.
 
@@ -64,7 +64,7 @@ Renders as:
 .. image:: ../../images/Headings2.PNG
 
 Lists
-=====
+-----
 
 Create a list by using ``*`` or ``-`` as bullets. Indent a bullet point by adding two spaces in front of it.
 
@@ -123,7 +123,7 @@ Renders as:
 .. image:: ../../images/checklist.PNG
 
 Code Block
-==========
+----------
 
 Create a code block by indenting each line by four spaces, or by placing ``````` on the line above and below your code.
 
@@ -183,7 +183,7 @@ Renders as:
 
 
 In-line Code
-============
+------------
 
 Create in-line monospaced font by surrounding it with backticks.
 
@@ -195,7 +195,7 @@ Create in-line monospaced font by surrounding it with backticks.
 Renders as: ``monospace``.
 
 In-line Images
-==============
+--------------
 
 Create in-line images using an ``!`` followed by the alt text in square brackets and the link in normal brackets. Add hover text by placing it in quotes after the link.
 
@@ -224,7 +224,7 @@ and
   :target: https://github.com/mattermost/platform
 
 Lines
-=====
+-----
 
 Create a line by using three ``*``, ``_``, or ``-``.
 
@@ -233,7 +233,7 @@ Create a line by using three ``*``, ``_``, or ``-``.
 ---------------------------------------------------------------------------
 
 Block quotes
-============
+------------
 
 Create block quotes using ``>``.
 
@@ -242,7 +242,7 @@ Create block quotes using ``>``.
 .. image:: ../../images/blockQuotes.PNG
 
 Tables
-======
+------
 
 Create a table by placing a dashed line under the header row and separating the columns with a pipe ``|``. (The columns don’t need to line up exactly for it to work). Choose how to align table columns by including colons ``:`` within the header row.
 
@@ -261,7 +261,7 @@ Renders as:
 
 
 Math Formulas
-=============
+-------------
 
 Create formulas by using LaTeX in a ``latex`` `Code Block`_
 
